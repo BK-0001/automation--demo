@@ -8,3 +8,6 @@ if (string1) {
 const arr = (para) => para;
 
 arr(123);
+                arr(123);
+arr(123);
+    console.log(arr(123));
