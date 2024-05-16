@@ -1,5 +1,4 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-npx eslint ./*.js --fix
-npx prettier --write ./*.js
+npx lint-staged
