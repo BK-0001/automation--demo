@@ -6,9 +6,9 @@ if (string1) {
 }
 
 const arr = (para) => para;
-const arr1 = (para) => para;
+const arr2 = (para) => para;
 
 arr(123);
 arr(123);
-arr1(123);
+arr2(123);
 console.log(arr(123));
